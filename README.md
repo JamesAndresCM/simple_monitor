@@ -54,6 +54,8 @@
 ###
 - Create container
 - `docker run -d --name=api_rails_mongo -p 3000:3000 --link=mongo:mongo -e DB_NAME_MONGO=db_logs -e DB_USER_MONGO=user_logs -e DB_PASSWD_MONGO=pass123 -e HOST_MONGO=mongo api_mongo`
+###
+- Endpoints are available in [README](https://github.com/JamesAndresCM/simple_monitor/tree/master/api_rails) file
 ---
 **Example response API**
 ###
